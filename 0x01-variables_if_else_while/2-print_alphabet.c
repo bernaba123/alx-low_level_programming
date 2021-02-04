@@ -1,11 +1,15 @@
 #include <stdio.h>
-
-int main(voi)
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-char a;
-while (a = 'a')
+char a = 'a';
+while (a <= 'z')
 {
-printf("%c", a);
+putchar(a);
 a++;
 }
 return (0);
