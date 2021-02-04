@@ -17,6 +17,7 @@ putchar(b + '0');
 b++;
 }
 putchar(a + '0')
+putchar(,);
 a++
 }
 return (0);
