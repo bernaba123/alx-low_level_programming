@@ -9,12 +9,13 @@
 
 int main(void)
 {
-int i = 48, j=49;
+int i = 48, j = 49;
 while (i < 58)
 {
 while (j != 58)
 {
-if (i!=j && i<j){
+if (i != j && i < j)
+{
 putchar(i);
 putchar(j);
 if (i != 56 || j != 57)
