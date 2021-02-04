@@ -1,23 +1,34 @@
 #include <stdio.h>
-
+/* more headers goes there */
+/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int a = 0;
-int b = 0;
-while (a < 10)
-{
-while (b < 10)
-{
-putchar(b + '0');
-b++;
-}
-putchar(a + '0');
-a++;
-}
-return (0);
+
+	int i = 48, j = 48;
+
+	while (i < 58)
+	{
+		while (j < 58)
+		{
+			putchar(i);
+			putchar(j);
+
+			if (i != 57 || j != 57)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			j++;
+		}
+		j = 48;
+		i++;
+	}
+	putchar('\n');
+	return (0);
 }
