@@ -15,10 +15,10 @@ while (b <= a)
 {
 putchar(b + '0');
 b++;
-putchar(',');
 }
-putchar(a + '0')
-a++
+putchar(a + '0');
+a++;
+putchar(',');
 }
 return (0);
 }
