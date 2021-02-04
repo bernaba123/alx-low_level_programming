@@ -8,17 +8,11 @@
 int main(void)
 {
 int a = 0;
-int b = 0;
 while (a < 10)
 {
-while (b <= a)
-{
-putchar(b + '0');
-b++;
-}
-putchar(a + '0')
-putchar(,);
-a++
+putchar(a + '0');
+a++;
+putchar(',');
 }
 return (0);
 }
