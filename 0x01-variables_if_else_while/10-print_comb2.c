@@ -18,7 +18,6 @@ b++;
 }
 putchar(a + '0');
 a++;
-putchar(',');
 }
 return (0);
 }
