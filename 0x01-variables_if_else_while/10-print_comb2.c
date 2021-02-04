@@ -11,7 +11,7 @@ int a = 0;
 int b = 0;
 while (a < 10)
 {
-while (b == a)
+while (b < 10)
 {
 putchar(b + '0');
 b++;
