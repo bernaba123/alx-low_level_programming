@@ -1,4 +1,8 @@
-#include "holberton.h>
+#include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+int _putchar(char c);
 
 /**
  * print_last_digit - Entry.
@@ -8,11 +12,16 @@
  * Return: Always 0.
  */
 
-int print_last_digit(int n){
-	if (n < 0)
-	n = -n;
-	int m;
-	m = n%10;
-	_putchar(m + '0');
-	return m;
+int print_last_digit(int last)
+{
+	int l = last % 10;
+
+	if (l >= 0)
+	{
+		_putchar(l + '0');
+		return (l);
+	}
+
+	_putchar(-l + '0');
+	return (-l);
 }
