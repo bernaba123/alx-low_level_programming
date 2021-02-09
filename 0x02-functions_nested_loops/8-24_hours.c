@@ -1,62 +1,44 @@
 #include "holberton.h"
 
 /**
- * jack_bauer
+ * jack_bauer - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
+
 void jack_bauer(void)
 {
-int a = 0;
-while (a < 3)
-{
-int b = 0;
-if (a == 2)
-{
-while (b < 4)
-{
-int k = 0;
-while (k < 6)
-{
-int l = 0;
-while (l < 10)
-{
-_putchar(a + '0');
-_putchar(b + '0');
-_putchar(':');
-_putchar(k + '0');
-_putchar(l + '0');
-_putchar('\n');
-l++;
-}
-k++;
-}
-b++;
-}
-}
-else
-{
-while (b < 10)
-{
-int k;
-while (k < 6)
-{
-int l = 0;
-while (l < 10)
-{
-_putchar(a + '0');
-_putchar(b + '0');
-_putchar(':');
-_putchar(k + '0');
-_putchar(l + '0');
-_putchar('\n');
-l++;
-}
-k++;
-}
-b++;
-}
-}
-a++;
-}
+	int i;
+	int j;
+	int k;
+	int z;
+	int hr2;
+
+	for (i = 48; i < 51; i++)
+	{
+		if (i == 50)
+		{
+			hr2 = 51;
+		}
+		else if (i != 50)
+		{
+			hr2 = 57;
+		}
+		for (j = 48; j <= hr2; j++)
+		{
+			for (k = 48; k < 54; k++)
+			{
+				for (z = 48; z <= 57; z++)
+				{
+					_putchar(i);
+					_putchar(j);
+					_putchar(':');
+					_putchar(k);
+					_putchar(z);
+					_putchar('\n');
+				}
+			}
+		}
+	}
+
 }
