@@ -19,5 +19,5 @@ n = t1 + t2;
 t1 = t2;
 t2 = n;
 }
-return 0;
+return (0);
 }
