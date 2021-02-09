@@ -5,7 +5,6 @@
  *
  * Return: Always 0.
  */
- 
 void jack_bauer(void)
 {
 int a = 0;
@@ -35,7 +34,7 @@ k++;
 b++;
 }
 }
-else 
+else
 {
 while (b < 10)
 {
