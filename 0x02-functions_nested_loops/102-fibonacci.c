@@ -10,7 +10,7 @@ int main(void)
 {
 int i, t1 = 1, t2 = 1, n;
 
-for (i = 1; i <= 50; i++)
+for (i = 1; i < 51; i++)
 {
 if (i > 1)
 printf(", ");
