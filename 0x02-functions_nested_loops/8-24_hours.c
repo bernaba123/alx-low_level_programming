@@ -5,17 +5,6 @@
  *
  * Return: Always 0.
  */
-
-void put(int a, int b, int k, int l)
-{
-_putchar(a + '0');
-_putchar(b + '0');
-_putchar(':');
-_putchar(k + '0');
-_putchar(l + '0');
-_putchar('\n');
-}
-
 void jack_bauer(void)
 {
 int a = 0;
@@ -55,7 +44,12 @@ while (k < 6)
 int l = 0;
 while (l < 10)
 {
-void put();
+_putchar(a + '0');
+_putchar(b + '0');
+_putchar(':');
+_putchar(k + '0');
+_putchar(l + '0');
+_putchar('\n');
 l++;
 }
 k++;
