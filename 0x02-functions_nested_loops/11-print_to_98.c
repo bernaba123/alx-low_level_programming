@@ -1,5 +1,6 @@
 #include "holberton"
 #include <stdio.h>
+#include <stdlib>
 
 /**
  * print_last_digit - Entry.
