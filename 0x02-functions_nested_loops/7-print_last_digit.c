@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int _putchar(char c);
+
 
 /**
  * print_last_digit - Entry.
  *
- * @last: an integer argument
+ * @n: an integer argument
  *
  * Return: Always 0.
  */
