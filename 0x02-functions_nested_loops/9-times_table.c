@@ -1,6 +1,6 @@
 #include "holberton"
 /**
- * times_table - check the code for Holberton School students.
+ * void times_table - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
