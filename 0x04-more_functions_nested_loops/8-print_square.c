@@ -9,9 +9,9 @@ void print_square(int size)
 {
 int i = 1, j;
 	
-if (size > 0)
+if(size > 0)
 {
-while (i <= size)
+while(i <= size)
 {
 j = 1;
 while(j <= size)
