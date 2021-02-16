@@ -1,9 +1,11 @@
 #include "holberton.h"
+
 /**
- * print_rev - prints string
- * @s: input string
- * Return: no return
+  * print_rev - prints string
+  * @s: input string
+  * Return: no return
  */
+
 void print_rev(char *s)
 {
 	int count = 0;
@@ -14,7 +16,7 @@ void print_rev(char *s)
 		count++;
 	}
 
-	for (count > 0)
+	while (count > 0)
 	{
 		s--;
 		_putchar(*s);
