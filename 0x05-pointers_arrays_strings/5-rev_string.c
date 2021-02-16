@@ -1,25 +1,17 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
-  * rev_string - prints string
-  * @s: input string
-  * Return: no return
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-
-void rev_string(char *s)
+int main(void)
 {
-	int count = 0;
+    char s[10] = "Holberton";
 
-	while (*s != '\0')
-	{
-		s++;
-		count++;
-	}
-
-	while (count > 0)
-	{
-		s--;
-		_putchar(*s);
-		count--;
-	}
+    printf("%s\n", s);
+    rev_string(s);
+    printf("%s\n", s);
+    return (0);
 }
