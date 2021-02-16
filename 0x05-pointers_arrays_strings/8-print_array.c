@@ -1,16 +1,19 @@
-#include "holberton.h"
 #include <stdio.h>
 /**
- * print_array - prints elements of array
- * @a: is integer param
- * @n: is integer param
+ * print_array - print n of int array
+ * @a: pointer
+ * @n: n
  */
 void print_array(int *a, int n)
 {
-for (n = 0; n < 5; n++)
-{
-printf("%d", a[n]);
-if (n != 4)
-printf(", ");
-}
+	short c = 0;
+
+	while (n-- > 0)
+	{
+		printf("%d", a[c++]);
+		if (n != 0)
+			printf(", ");
+	}
+
+		printf("\n");
 }
