@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * print_triangle - prints a triangle
+ * reset_to_98 - prints a triangle
  *
- * @*n: an integer params
+ * @n: an integer params
  *
  * void function
  */
