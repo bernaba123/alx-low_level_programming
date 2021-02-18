@@ -1,13 +1,14 @@
 #include "holberton.h"
 
 /**
- * *_strcat - function commute srtings
+ * *_strncat - function commute srtings
  * @dest: param pointer to a char
  * @src: param pointer to a char
+ * @n: param points to an int
  * Return: return value of dest
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 int i;
 int j;
