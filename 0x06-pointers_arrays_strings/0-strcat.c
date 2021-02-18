@@ -1,10 +1,12 @@
 #include "holberton.h"
+
 /**
 * _strcat - check the code for Holberton School students.
 * @dest: is a character param
 * @src: is a character param
 * Return: Always dest.
 */
+
 char *_strcat(char *dest, char *src)
 {
 int i
