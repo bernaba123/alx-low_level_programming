@@ -1,1 +1,1 @@
-#define ABS(X) ((X) >= 0 ? (x) : (-X))
+#define ABS(X)((X) >= 0 ? (x) : (-X))
