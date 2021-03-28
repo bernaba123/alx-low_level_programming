@@ -1,5 +1,4 @@
-#ifndef FILE_MACRO
-#define FILE_MACRO
+#ifndef SIZE
 #define SIZE 1024
 
 
